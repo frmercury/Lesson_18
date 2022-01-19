@@ -45,5 +45,6 @@ public class SmokeUiSuite extends BaseTest {
             e.printStackTrace();
         }
         Assert.assertTrue(webDriver.findElement(By.id("create_account_error")).isDisplayed());
+
     }
 }
